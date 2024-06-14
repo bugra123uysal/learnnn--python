@@ -47,6 +47,7 @@ print(ii[1:5])
 print(ii[:10])
 
 print(ii.upper())
+print(ii.lower())
 
 dd= """ boşlukları kaldırma """
 ill="hello  how  are  you "
@@ -66,3 +67,9 @@ yaş=30
 yazı= f"merhaba yaşım {yaş}"
 
 print(yazı)
+
+tüğ=f"merhanva {yaş:.2f}"
+print(tüğ)
+
+öö="arabalar: bmw,audi,mercedes \"aaaaa\" alman arabalrı"
+print(öö)

@@ -73,3 +73,23 @@ print(tüğ)
 
 öö="arabalar: bmw,audi,mercedes \"aaaaa\" alman arabalrı"
 print(öö)
+
+print(100<10)
+
+print(bool(10>8))
+
+""" türünü kontrol eder  int vs """
+
+s=470
+print(isinstance(s,int))
+
+def  nbn():
+    return True
+
+if nbn():
+    print("yes ")
+else:
+   print("no")
+
+   
+ 

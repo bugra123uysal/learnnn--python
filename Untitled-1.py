@@ -38,7 +38,7 @@ print(float(c))
 
 """ içinde bu kelime varmı diye kontrol etmek """
 trxxx="merhaba bu gün hava bulutluu ve yağışlı"
-
+78
 print("doğru" is trxxx )
 
 
@@ -91,5 +91,8 @@ if nbn():
 else:
    print("no")
 
-   
+astt =["araba","elma","armut"]
+print(astt)
+
+print(type(astt))
  

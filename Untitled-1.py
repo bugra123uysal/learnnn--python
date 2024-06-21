@@ -95,4 +95,28 @@ astt =["araba","elma","armut"]
 print(astt)
 
 print(type(astt))
- 
+print(astt[2])
+
+if "üzüm" in astt:
+    print("evet var")
+else:
+    print("hayır yok")
+
+    if "mermi" in astt:
+        print("evet burada")
+    else:
+        print("hayır burda yok")
+
+
+        astt[1]="merhamet edin efendim"
+        print(astt)
+
+        thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+
+        thislist[0:2]= ["selam", "merhaba"]
+        print(thislist)
+
+        """ öge silmeden eklemek """
+        yy=["apple", "banana", "cherry"]
+        yy.insert(3, " wather")
+        print(yy)

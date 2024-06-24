@@ -38,7 +38,7 @@ print(float(c))
 
 """ içinde bu kelime varmı diye kontrol etmek """
 trxxx="merhaba bu gün hava bulutluu ve yağışlı"
-78
+
 print("doğru" is trxxx )
 
 
@@ -50,8 +50,8 @@ print(ii.upper())
 print(ii.lower())
 
 dd= """ boşlukları kaldırma """
-ill="hello  how  are  you "
-print(ill.strip())
+illl="hell o  how  are  you merhaba"
+print(illl.strip())
 
 """ değiştirmek  """
 print(ii.replace("h", "y"))
@@ -118,5 +118,60 @@ else:
 
         """ öge silmeden eklemek """
         yy=["apple", "banana", "cherry"]
-        yy.insert(3, " wather")
+        yy.insert(0, " wather")
         print(yy)
+
+""" listenin sonuna ekler """
+yy.append("car")
+print(yy)
+
+""" listeleri birbirine eklemek  """
+cc=["para","altın","dollar","euro" ]
+vv=["faiz","kredi"]
+
+cc.extend(vv)
+print(cc)
+""" listeden kaldırmak remove """
+cc.remove("altın")
+print(cc)
+
+""" sayı olarak kaldırmak  pop(3)  """
+""" dizi belirtmes sen son ögeyi kaldırır pop()  """
+
+cc.pop()
+print(cc)
+""" kaldırma """
+odıı=["faiz","kredi","mezar"]
+del odıı[1]
+print(odıı)
+
+""" listenin tamamını silmek 
+çç=["faiz","kredi","mezar","sayı"]
+del çç
+print(çç)
+"""
+""" parentez kalır içindeki  diziler siler """
+şş=["a","b","c","d","e","f"]
+şş.clear()
+print(şş)
+
+""" döngü oluşturmak  """
+
+adın=["aslan","şevket","polat","memati"]
+
+for p in adın:
+    print(p)
+
+""" dizi numaraları arası döngü yene normal  döngü gibi dödürür """
+for m in range(len(adın)):
+ print(adın[m])
+
+ dş=["d","ü","q","r"]
+ i=0
+
+ while i < len(dş):
+     print(dş[i])
+     i=i+1
+
+   
+ 

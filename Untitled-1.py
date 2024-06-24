@@ -173,5 +173,54 @@ for m in range(len(adın)):
      print(dş[i])
      i=i+1
 
+""" fgü listesi  içinde a harfi olan kelimeleri ghb içine koyup yazdırır """
+fgü=["aslan","kaplan","yılan","su","burun","öneri"]
+ghb=[]
+
+for ö in fgü:
+    if "a" in ö:
+        ghb.append(ö)
+        print(ghb)
+
+""" daha az satırlı hali """
+fgü=["aslan","kaplan","yılan","su","burun","öneri"]
+ghb=[ö for ö in fgü  if "a" in ö]
+print(ghb)
+
+""" kaç dışındakileri yazdır  """
+bnb=["asıl","kaç","gel","git"]
+nmb=[n for n in bnb if n != "kaç"]
+print(nmb)
+
+""" 10  kadar yazdır """
+vfd=[c for c in range (10) ]
+print(vfd)
+
+ll=[h for h in range(10) if h < 5  ]
+print(ll)
+
+""" büyük harf yazdırmak  """
+hh=["ali","veli","osman"]
+bnd=[pp.upper() for pp in hh]
+print(bnd)
+
+""" listedekilerin hepsini aynı kelime yapmak """
+oı=["apple", "banana", "cherry", "kiwi", "mango"]
+ert=['hürme edin efendim' for t in oı ]
+print(ert)
+
+""" listedeki bir kelime yerine başka bir kelime yazdırma """
+sd=["apple", "banana", "cherry", "kiwi", "mango"]
+vnn=[yy if yy !="banana" else "yunanistan" for yy in sd ]
+
+print(vnn)
+
+""" listedeki numaraları sıralama """
+numberss=[100, 50, 65, 82, 23]
+numberss.sort()
+
+print(numberss)
+
+
    
  

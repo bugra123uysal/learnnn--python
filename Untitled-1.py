@@ -215,12 +215,42 @@ vnn=[yy if yy !="banana" else "yunanistan" for yy in sd ]
 
 print(vnn)
 
-""" listedeki numaraları sıralama """
+""" düşükden yükseğe """
 numberss=[100, 50, 65, 82, 23]
 numberss.sort()
 
 print(numberss)
+""" alfabeye göre sırlama """
+harff=["g","s","a","v","c"]
+harff.sort()
+print(harff)
 
 
-   
- 
+"""  yüksekden düşüğe """
+
+vdaa=[100, 50, 65, 82, 23,1000,7,56,22,1101]
+vdaa.sort(reverse=True)
+
+print(vdaa)
+
+""" Listeyi sayının 50'ye ne kadar yakın olduğuna göre sıralar """
+xcx=[100, 50, 65, 82, 23,1000,7,56,22,1101]
+
+
+def aa(n):
+    return abs(n- 50)
+xcx.sort(key= aa)
+print(xcx)
+""" büyük harfle başlayan lar ilk sırada küçük harfle başlayanlar sonra sıralanır """
+vvv=["banana", "Orange", "Kiwi", "Cherry"]
+
+vvv.sort()
+print(vvv)
+""" büyük küçük harf ayrımı olmasın diyorsan """
+vvv.sort(key= str.lower)
+print(vvv)
+
+""" listenin tersini yazdırmak istersen """
+bbnn=["banana", "Orange", "Kiwi", "Cherry"]
+bbnn.reverse()
+print(bbnn)

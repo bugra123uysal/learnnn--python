@@ -294,7 +294,7 @@ print(x)
 """ tuple a tuple eklemek  """
 frg=("a","b","c","d","e")
 bvv=("f",)
-frg += bvv
+frg += bvv 
 print(frg)
 
 """ tupleyi  açmak  """
@@ -313,3 +313,48 @@ print(rr)
 print(pp)
 print(tp)
 
+thislisteem=("aa","bb","cc","dd")
+
+for x in thislisteem:
+    print(x)
+
+iiiiii=("aa","bb","cc","dd")
+
+for o in range (len(iiiiii)):
+    print(iiiiii[o])
+
+    """ while  """
+    don=["araba","para","maç","arda","ronaldo"]
+    t=0
+    while t< len(don):
+        print(don[t])
+        t=t+1
+    """ tuple birleştir """
+    tuple1 = ("a", "b" , "c")
+    tuple2 = (1, 2, 3)
+    tuoletopla=tuple1+tuple2
+    print(tuoletopla)
+    """ tuple çarp """
+    tuplll = (1, 2, 3)
+    cprtpl=tuplll*3
+    print(cprtpl)
+
+    """ tuple  kaç tane olduğunu  saymak  için """
+    grgg=(1, 3, 7, 8, 7, 5, 4, 6, 8, 5,10,2,5,55,100,345,10)
+    fdf=grgg.count(2)
+    print(fdf)
+    """10 sayısı ilk kaçıncı sıradaysa onu söyler 8 dedir   """
+    asgt=(1, 3, 7, 8, 7, 5, 4, 6,10, 8, 5,1,2,5,8,10,55,100,345,10)
+    lpğ=asgt.index(10)
+    print(lpğ)
+
+    """ set leri öğrenmeye başladım """
+
+    sett={"merhaba","setler","kod"}
+    print(sett)
+
+    print(type(sett))
+
+    """ kopyaya  setteki kelime vs aynısından 2 tane  varsa yazdırmaz """
+    ıteı={"kod","araba","ev","toplantı","setler","kod","setler" }
+    print(ıteı)

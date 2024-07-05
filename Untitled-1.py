@@ -254,3 +254,62 @@ print(vvv)
 bbnn=["banana", "Orange", "Kiwi", "Cherry"]
 bbnn.reverse()
 print(bbnn)
+
+""" liste kopyalama """
+
+wae=["apple", "banana", "cherry"]
+dff= wae.copy()
+print(dff)
+""" listeleri birleştirme """
+aab=["a","b","c","d"]
+abbc=[1,2,3,4]
+
+brlşkk=aab+abbc
+
+print(brlşkk)
+
+""" listeleri birleştirmede başka bir yolu """
+aab.extend(abbc)
+print(aab)
+
+
+""" tuple """
+x = ("apple", "banana", "cherry")
+""" tupleyi listeye çevirip değişiklik yapmak """
+po=list(x)
+""" yeni öge oluşturmak  """
+po.append("blubery")
+""" öge silmek çıkartmak  """
+po.remove("apple")
+""" değiştirmek  """
+po[2]="lemon"
+nn=tuple(po)
+print(nn)
+""" tamammını silmek istersen
+
+del x 
+print(x)
+ """
+
+""" tuple a tuple eklemek  """
+frg=("a","b","c","d","e")
+bvv=("f",)
+frg += bvv
+print(frg)
+
+""" tupleyi  açmak  """
+yaşam=("sağlık","yemek","huzur","para",)
+
+(bırr,ıkıı,ucc,dortt)=yaşam
+print(bırr)
+print(ıkıı)
+print(ucc)
+print(dortt)
+
+uits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+(*rr,pp, tp)=uits
+
+print(rr)
+print(pp)
+print(tp)
+
